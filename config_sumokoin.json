@@ -1,6 +1,6 @@
 {
-    "coin": "Sumokoin",
-    "symbol": "SUMO",
+    "coin": "Typhon",
+    "symbol": "TPN",
     "coinUnits": 1000000000,
     "coinDifficultyTarget": 240,
 
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "Sumoo64zh7dRFyB8dgDWZMLmzKBgGXYWZCG4NBF2VcvzEuiSQpMjyyiYJ1Ra696pZu56PPFQNBDdB1rZjyeX1RVKeWZgHg7pTxj",
+        "poolAddress": "013c01ff000147029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121019c3b2c04590946f8f0b5d2b4fc408142d1078f0eb9ea3e1cde056b28560cdf86",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslKey": "key.pem",
@@ -134,18 +134,18 @@
         "port": 8118,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password",
+        "password": "",
         "trust_proxy_ip": false
     },
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 19734
+        "port": 9998
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 19735
+        "port": 9999
     },
 
     "redis": {
